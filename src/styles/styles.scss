@@ -1,0 +1,12 @@
+@import "app-variables";
+@import "app-tools";
+
+body {
+  background-color: $color_grey-lighter;
+  color: $color-grey-dark;
+  color: black;
+  font-family: Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}

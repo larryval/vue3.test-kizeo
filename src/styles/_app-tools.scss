@@ -1,0 +1,11 @@
+@function rem($pixelValue) {
+  @return ($pixelValue/16) * 1rem;
+}
+
+@mixin set-border($px, $color) {
+  @if $enabledBorder {
+    border: $px solid $color;
+  } @else {
+    border: none;
+  }
+}
